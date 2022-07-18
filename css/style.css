@@ -1,0 +1,55 @@
+.bg-gray{
+    background-color: rgb(31, 72, 206);
+}
+
+body{
+    font-family: 'Helvetica', cursive;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+}
+
+ul{
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    width: 100%;
+}
+
+li{
+    font-size: 20px;
+    color: #000;
+    height: 110px;
+    width: 110px;
+    margin:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(206, 33, 33);
+    border-radius: 10%;
+}
+
+#board{
+    padding: 1rem 2rem;
+    width: 100%;
+}
+
+#fb{
+    border-radius: 50%;
+    background-color: rgb(39, 165, 39);
+}
+
+#f{
+    border-radius: 20%;
+    background-color: rgb(142, 124, 185);
+}
+
+#b{
+    border-radius: 20%;
+    background-color: rgb(215, 218, 32);
+}
+
+    
